@@ -1,0 +1,620 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 1583px;
+	height: 4559.5px;
+}
+#header{
+	width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+}
+#header div.left{
+	width: 670px;
+	height: 90px;
+	
+	float: left;
+}
+#header div.left img{
+	display: block;
+	width: 170px;
+	height: 46px;
+    margin-top: 20px; 
+    margin-right:30px; 
+    float: left;
+}
+#header div.left a{
+	display: block;
+	width: 94px;
+	height: 90px;
+	line-height: 90px;
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	float: left;
+	text-align: center;
+}
+#header div.left a.special{
+	background: #31C27C;
+	color: white;
+}
+#header div.left a:hover{
+	color: #31C27C;
+}
+#header div.left a.special:hover{
+	color: white;
+}
+#header div.right{
+	width: 530px;
+	height: 90px;
+	line-height: 90px;
+	float: right;
+}
+#header div.right a{
+	display: block;
+	float: right;
+	font-size: 16px;
+	text-decoration:none;
+	color: black;
+}
+#header div.right a.white{
+	width: 80px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #C9C9C9;
+	text-align: center;
+	margin-top: 26px;
+	margin-left: 10px; 
+	font-size: 13px;
+}
+#header div.right a.green{
+	width: 110px;
+	height: 38px;
+	line-height: 38px;
+	background: #31C27C;
+	text-align:center;
+	margin-top: 26px;
+	margin-left: 20px;
+	font-size: 13px;
+	color: white;
+}
+#header div.right a:hover{
+	color:  #31C27C;
+}
+#header div.right a.white:hover{
+	background: #C9C9C9;
+	color: black;
+}
+#header div.right a.green:hover{
+	background: green;
+}
+/*需要修改*/
+#header div.right div.find{
+	width: 220px;
+	height: 34px;
+	float: right;
+	margin-top: 28px;
+	margin-right: 20px; 
+	border: 1px solid #C9C9C9;
+}
+#nav{
+	width: 980px;
+	height: 52px;
+	margin: 0 auto;
+	padding-left: 220px;
+}
+#nav a{
+	display: block;
+	float: left;
+	width: 80px;
+	height: 52px;
+	line-height: 52px;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+#nav a.special{
+	color: #31C27C;
+}
+#nav a.long{
+	width: 100px;
+}
+#nav a.longer{
+	width: 110px;
+}
+#nav a.end{
+	width: 110px;
+}
+#nav a:hover{
+	color: #31C27C;
+}
+#newmusic{
+	width: 1583px;
+	height: 734px;
+	background: url(images/bg_index_new.jpg) no-repeat;
+	
+}
+#newmusic p{
+	font-size: 45px;
+	font-weight: normal;
+	color: white;  
+	text-align: center;
+	padding-top: 70px;
+}
+#newmusic div.nav{
+	width: 1583px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 30px; 
+	padding-left: 550px;
+	margin-bottom: 20px; 
+}
+#newmusic div.nav span{
+	display: block;
+	
+    width: 110px;
+    float: left;
+}
+#newmusic div.nav span.right{
+	width: 50px;
+	margin-left: 240px; 
+}
+#newmusic div.nav span a{
+	color: #C9C9C9;
+	text-decoration: none;
+}
+#newmusic div.nav span a.normal{
+	color: white;
+}
+#newmusic div.nav span a.special{
+	color: white;
+}
+#newmusic div.nav span a:hover{
+	color: white;
+}
+#newmusic div.nav span a.special:hover{
+	color: #31C27C;
+}
+#newmusic div.image{
+	width: 1200px;
+	height: 415px;
+    margin: 0 auto;
+    background: #060606;
+}
+#newmusic div.image dl:hover{
+	height: 415px;
+    background: #31C27C;
+}
+#newmusic div.image dl{
+	float: left;
+}
+#newmusic div.image dl dt a{
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	margin-bottom:20px;
+}
+#newmusic div.image dl dt.one a{
+	background: url(images/tfboy.jpg);
+}
+#newmusic div.image dl dt.one a:hover{
+	background: url(images/tfboy1.png);
+}
+
+#newmusic div.image dl dt.two a{
+	background: url(images/jita.jpg);
+}
+#newmusic div.image dl dt.two a:hover{
+	background: url(images/jita1.png);
+}
+#newmusic div.image dl dt.three a{
+	background: url(images/yuedui.jpg);
+}
+#newmusic div.image dl dt.three a:hover{
+	background: url(images/yuedui1.png);
+}
+#newmusic div.image dl dt.four a{
+	background: url(images/xinge.jpg);
+}
+#newmusic div.image dl dt.four a:hover{
+	background: url(images/xinge1.png);
+}
+
+#newmusic div.image dl dd{
+   text-align: center;
+   color: gray;
+   margin-top: 8px;
+}
+#newmusic div.image dl dd.white{
+	color: white;
+}
+#jincai{
+	width: 1200px;
+	height: 580px;
+	margin:0 auto;
+	margin-bottom: 50px;
+	
+}
+#jincai p{
+	
+	font-size: 45px;
+	font-weight: normal; 
+	text-align: center;
+	padding-top: 70px;
+}
+#jincai div{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+#jincai div img.one{
+	margin-top:30px;
+	display: block;
+	width: 225px;
+	height: 240px;
+	float: left;
+}
+
+#jincai div img.two{
+	display: block;
+	width: 750px;
+	height: 300px;
+	float: left;
+}
+#jincai div img.three{
+	margin-top:30px;
+	display: block;
+	width: 225px;
+	height: 240px;
+	float: left;
+}
+#number{
+    width: 1583px;
+    height: 830px;
+    background: url(images/bg_index_top2.jpg);
+    margin-bottom: 80px;
+}
+#number h1{
+	color: white;
+	font-size: 45px;
+	font-weight: normal; 
+	text-align: center;
+	padding-top: 70px;
+}
+#number span{
+	display: block;
+	width: 1200px;
+	height: 40px;
+	font-size: 15px;
+    margin: 0 auto;
+    text-align: right;
+}
+#number span a{
+	text-decoration: none;
+	color: white;
+}
+#number dl{
+	width: 1200px;
+	height: 567px;
+	margin: 0 auto;
+	list-style-type: none;
+	background: url(images/bg_index_top.jpg);
+}
+#number dl dd{
+	width: 300px;
+	height: 567px;
+	float: left;
+}
+
+#number dl dd strong{
+	display: block;
+	color: white;
+	font-weight: normal;
+	font-size: 35px;
+	text-align:center;
+}
+#number dl dd strong.top{
+	font-size: 20px;
+	margin-top:80px;
+}
+#number dl dd strong.bottom{
+	margin-bottom: 100px;
+}
+#number dl dd div{
+	width: 300px;
+	height: 250px;
+	
+}
+#number dl dd div ul li{
+	margin-left: 70px;
+	list-style-type: none;
+	color: white;
+	font-size: 16px;
+	margin-bottom:4px;
+}
+#number dl dd div ul li.gray{
+    font-size: 13px;
+    color: #C9C9C9;
+    margin-bottom: 13px;
+}
+#remen{
+	width: 1200px;
+	height: 563px;
+	margin:0 auto;
+	margin-bottom: 100px;
+	background: #333333;
+}
+#remen p{
+	font-size: 45px;
+	font-weight: normal; 
+	text-align: center;
+	background: white;
+	padding-bottom: 40px;
+}
+#remen dl{
+	float: left;
+}
+#remen dl:hover{
+	height: 465px;
+    background: #31C27C;
+}
+#remen dl dt img{
+	margin-bottom:50px;
+}
+#remen dl dd{
+   text-align: center;
+   color: gray;
+   margin-top: 8px;
+}
+#remen dl dd.white{
+	color: white;
+}
+#mv{
+	width: 1583px;
+	height: 860px;
+	background: #E6E6E6;
+}
+#mv p{
+	font-size: 45px;
+	text-align: center;
+	padding-top: 60px;
+}
+#mv div.nav{
+	width: 1583px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 30px; 
+	padding-left: 480px;
+	margin-bottom: 20px; 
+}
+#mv div.nav span{
+	display: block;
+	
+    width: 110px;
+    float: left;
+}
+#mv div.nav span.right{
+	width: 50px;
+	margin-left: 195px; 
+}
+#mv div.nav span a{
+	color: #8D8D8D;
+	text-decoration: none;
+}
+#mv div.nav span a.normal{
+	color: black;
+}
+#mv div.nav span a.special{
+	color: black;
+}
+#mv div.nav span a:hover{
+	color: black;
+}
+#mv div.nav span a.special:hover{
+	color: #31C27C;
+}
+#mv div.image{
+	width: 1200px;
+	height: 615px;
+    margin: 0 auto;
+}
+#mv div.image dl{
+	float: left;
+	margin-bottom: 30px;
+}
+#mv div.image dl dt img{
+	width: 300px;
+	height: 169.633px;
+	margin-bottom:20px;
+}
+#mv div.image dl dd{
+   text-align: center;
+   margin-top: 2px;
+}
+#mv div.image dl dd.huishe{
+	color: #999999;
+}
+#mv div.image dl dd a{
+	text-decoration: none;
+	color: black;
+}
+#mv div.image dl dd.huishe a{
+	color: #999999;
+}
+#mv div.image dl dd a:hover{
+	color: #31C27C;
+}
+#footer{
+	clear: both;
+	width: 1583px;
+	height: 540px;
+	background: #333333;
+}
+#footer a{
+	text-decoration: none;
+	color: #999999;
+	font-size: 14px;
+}
+#footer a:hover{
+	color: #31C27C;
+}
+#footer div.top{
+	width: 1200px;
+	height: 250px;
+	margin: 0 auto;
+}
+#footer div.top div{
+	float: left;
+	width: 400px;
+	height: 286.5px;
+}
+#footer div.top div.one{
+	width: 500px;
+}
+#footer div.top div p{
+	font-size: 14px;
+	color: #999999;
+	margin-bottom: 60px;
+	text-align: left;
+}
+#footer div.top div dl{
+	width: 100px;
+	float: left;
+	font-size: 14px;
+	color: #999999;
+}
+#footer div.top div dl.one{
+	width: 60px;
+	margin-right:15px;
+}
+#footer div.top div dl.one dt a{
+	display: block;
+	height: 41px;
+	width: 41px;
+	background: url(images/1.png);
+}
+#footer div.top div dl.one dt a:hover{
+	background: url(images/2.png);
+}
+#footer div.top div dl.two dt a{
+	width: 49px;
+	height: 43px;
+	display: block;
+	margin: 0 auto;
+	background: url(images/5.png);
+}
+#footer div.top div dl.two dt a:hover{
+	background: url(images/6.png);
+}
+#footer div.top div dl.three dt a{
+	width: 41px;
+	height: 45px;
+	display: block;
+	margin: 0 auto;
+	background: url(images/7.png);
+}
+#footer div.top div dl.three dt a:hover{
+	background: url(images/8.png);
+}
+#footer div.top div dl.four dt a{
+	width: 37px;
+	height: 45px;
+	display: block;
+	margin: 0 auto;
+	background: url(images/4.png);
+}
+#footer div.top div dl.four dt a:hover{
+	background: url(images/3.png);
+}
+#footer div.top div dl.five dt a{
+	width: 44px;
+	height: 44px;
+	display: block;
+	background: url(images/13.png);
+}
+#footer div.top div dl.five dt a:hover{
+	background: url(images/14.png);
+}
+#footer div.top div dl.six dt a{
+	width: 41px;
+	height: 45px;
+	display: block;
+	margin: 0 auto;
+	background: url(images/9.png);
+}
+#footer div.top div dl.six dt a:hover{
+	background: url(images/10.png);
+}
+#footer div.top div dl.seven dt a{
+	width: 41px;
+	height: 46px;
+	display: block;
+	margin: 0 auto;
+	background: url(images/11.png);
+}
+#footer div.top div dl.seven dt a:hover{
+	background: url(images/12.png);
+}
+#footer div.top div dl dd.special{
+	text-align: center;
+}
+#footer div.top div.two span{
+	width: 300px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 50px;
+	font-size: 14px;
+	color: #999999;
+}
+#footer div.top div.three{
+	width: 300px;
+}
+#footer div.top div.three ul{
+	list-style-type: none;
+	font-size: 14px;
+	float: left;
+	line-height: 28px;
+}
+
+#footer div.top div.three ul.special{
+	margin-left:20px;
+}
+#footer div.middle{
+	width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+	
+}
+#footer div.middle p{
+	padding:0px;
+	margin-bottom:40px;
+	
+	color: #999999;
+	text-align: left;
+	font-size: 14px;
+}
+#footer div.middle span{
+	color: #999999;
+	font-size: 14px;
+}
+#footer div.middle span.right{
+	margin-left: 40px;
+}
+#footer div.bottom{
+	height: 150px;
+}
+#footer div.bottom p{
+	color: #999999;
+	text-align: center;
+	font-size: 12px;
+}
+#footer div.bottom span{
+	display: block;
+	text-align: center;
+	color: #999999;
+	font-size: 12px;
+}
